@@ -35,4 +35,30 @@ const myFunction = function (){
     // console.log("Hello World ");
 }
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive)  , Heap(non-primitive)
+
+let myYoutubename = "TED ENglish"
+let newName = myYoutubename
+
+newName = "MIT America"
+
+// console.log(newName);
+// console.log(myYoutubename);
+
+
+let clientOne = {
+    email : "saif@google.com",
+    Name : "Mohd Saif"
+}
+
+let clientTwo = clientOne
+
+clientTwo.email = "rasshid@jmi.ac.in"
+
+console.log(clientOne.email);
+console.log(clientTwo.email);
+

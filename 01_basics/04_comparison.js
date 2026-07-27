@@ -14,7 +14,7 @@
 // console.log(null == 0);
 // console.log(null >= 0);
 
-// avoid these type of conversions
+// avoid these type of comparisions
 
 // console.log(undefined == 0);
 // console.log(undefined < 0);
