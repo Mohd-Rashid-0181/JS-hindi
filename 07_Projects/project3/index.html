@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Clock</title>
+</head>
+
+<body>
+    <div class="div2">
+        <div class="kk">Digital Clock</div><br><br><br><br><br><br>
+        <div class="banner"><span>Your Local Time</span></div><br>
+        <div class="clock"></div>
+    </div>
+</body>
+<script>
+    const clock = document.querySelector('.clock')
+    // let date = new Date()
+    // const time = date.toLocaleString()
+    // clock.textContent = time
+
+    setInterval(() => {
+        let date = new Date()
+         clock.textContent = date.toLocaleString()
+    }, 1000)
+
+</script>
+
+</html>

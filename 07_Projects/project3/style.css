@@ -1,0 +1,39 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    background-color: brown;
+    color: black;
+    width: 110px;
+    height: 50px;
+    border-radius: 20px;
+}
