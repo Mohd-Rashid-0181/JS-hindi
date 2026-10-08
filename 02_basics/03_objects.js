@@ -2,7 +2,7 @@
 // constructure makes singleton everytime lateral not
 //  constructure method (object.Create)
 
-// Object literals
+                    // Object literals
 
 const mySym = Symbol("key1")  // Declaration of symbol
 
@@ -18,7 +18,7 @@ const JsUser = {
 }
 
 
-//  Access Method 
+                            //  Access Method 
 
 // console.log(JsUser.isLoggedIn);    // Normal (.) => not work on string type
 // console.log(JsUser["full name"]);  // Square Notation (Specially for string type )
