@@ -14,8 +14,17 @@ const JsUser = {
     age : 18,
     email : "rashid@google.com",
     isLoggedIn : false,
-    lastLoginDays : ["Monday","Saturday"]
+    lastLoginDays : ["Monday","Saturday"],
+    'delievery-time': '1 day'
 }
+
+    console.log(JsUser['name'])
+    // 
+    const convert = JSON.stringify(JsUser);
+
+    console.log(convert);
+
+    console.log(JSON.parse(convert));
 
 
                             //  Access Method 
@@ -26,7 +35,7 @@ const JsUser = {
 // console.log(typeof JsUser.mySym);
 
 JsUser.email = "rashid@chatgpt.com"
-// Object.freeze(JsUser)    
+// Object.freeze(JsUser)
 // freeze is used for freezing the object and after that we don't able to change the values of elements in objects
 JsUser.email = "rashid@microsoft.com"
 JsUser.age = 21
@@ -35,12 +44,12 @@ JsUser.age = 21
 // console.log(JsUser.email);
 
 JsUser.greeting = function(){
-    console.log("Hello JS user");
+    // console.log("Hello JS user");
 }
 JsUser.greetingTwo = function(){
-    console.log(`Hello JS user,${this.name}`);
+    // console.log(`Hello JS user,${this.name}`);
 }
 
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingTwo());
 
